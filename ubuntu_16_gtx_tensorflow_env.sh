@@ -7,6 +7,13 @@ sudo apt-get install htop
 sudo apt-get install vim
 
 
+# install nvidia driver using apt-get
+sudo apt-get purge nvidia*
+sudo add-apt-repository ppa:graphics-drivers
+sudo apt-get update
+sudo apt-get install nvidia-390
+
+
 # install nvidia driver
 sudo apt-get install mesa-utils
 sudo apt-get install dkms
